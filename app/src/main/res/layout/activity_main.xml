@@ -39,13 +39,20 @@
         android:layout_height="wrap_content"
         android:text="Reset" />
 
-    <TextView
-        android:id="@+id/textViewZapisanyCzas"
+
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="16px"
-        android:textSize="32dp"
-        android:text="TextView" />
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewZapisanyCzas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16px"
+            android:textSize="32dp"
+            android:text="Zapisane czasy:" />
+    </ScrollView>
 
 </LinearLayout>
